@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSSExternal</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="UTS.css">
+    </head>
+    <body>
+        <header>
+            <h1>Buku Bekas Store KLM</h1>
+            <marquee direction="left" behavior="scroll" scrollamount="8" loop="100">BELI LEBIH DARI 5 BUKU DAPAT DISKON 10%!!! BELI LEBIH DARI 5 BUKU DAPAT DISKON 10%!!! BELI LEBIH DARI 5 BUKU DAPAT DISKON 10%!!! </marquee>
+        </header>
+        <section class="kategori">
+            <h3>Cari & Pilih Kategori Buku:</h3>
+            <input type="text" id="search-buku" placeholder="Ketik judul buku..." style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; margin-bottom: 10px; width: 250px;">
+            <select id="jenis-buku">
+                <option value="semua">Semua Kategori</option> 
+                <option value="fiksi">Fiksi</option>
+                <option value="nonfiksi">Non-Fiksi</option>
+            </select>
+        </section>
+    <main>
+        <ul class="daftar-buku">
+            <li class="book-item" data-category="fiksi">
+                <img src="buku1.jpeg" alt="Sampul Buku Fiksi" width="150">
+                <input type="checkbox" class="pilih-buku" data-harga="45000" data-judul="Pulang"> Pilih Buku
+                <h3>Pulang</h3>
+                <p><strong>Harga: Rp 45.000</strong></p>
+                <p class="sinopsis">Sebuah kisah tentang perjalanan Pulang. Melalui pertarungan demi pertarungan. Kesedihan demi kesedihan. untuk memeluk erat semua kebencian dan rasa sakit. Untuk membuka rahasia masa lalu. Pun menatap masa depan. Pulang</p>
+            </li>
+            
+            <li class="book-item" data-category="fiksi">
+                <img src="buku2.jpeg" alt="Sampul Buku Fiksi" width="150">
+                <input type="checkbox" class="pilih-buku" data-harga="50000" data-judul="janji"> Pilih Buku
+                <h3>Janji</h3>
+                <p><strong>Harga: Rp 50.000</strong></p>
+                <p class="sinopsis">menceritakan tentang 3 sekawan bernama Hasan, Baso dan Kahar yang mendapat tugas dari Buya untuk mencari mantan santri sang ayah 40 tahun lalu bernama Bahar. Hal ini merupakan salah satu konsekuensi yang diterima mereka karena menjaili tamu agung yang dengan memasukan garam ke dalam minumannya. Tak hanya itu, 3 sekawan merupakan murid nakal yang gemar membuat onar.</p>
+            </li>
+
+            <li class="book-item" data-category="nonfiksi">
+                <img src="buku3.jpeg" alt="Sampul Buku Non-Fiksi" width="150">
+                <input type="checkbox" class="pilih-buku" data-harga="48000" data-judul="Seni Mengubah Nasib"> Pilih Buku
+                <h3>Seni Mengubah nasib</h3>
+                <p><strong>Harga: Rp 48.000</strong></p>
+                <p class="sinopsis">Buku ini membicarakan perihal tabiat harian dan cara belajar figura-figura genius dunia yang dapat dijadikan sebagai panduan dan suri teladan. Mereka terdiri daripada golongan ilmuwan yang memiliki tahap kepintaran tinggi dan luar biasa dalam peradaban dunia.</p>
+            </li>
+
+            <li class="book-item" data-category="nonfiksi">
+                <img src="buku4.jpeg" alt="Sampul Buku Non-Fiksi" width="150">
+                <input type="checkbox" class="pilih-buku" data-harga="40000" data-judul="Merancang Karya Tulis Ilmiah"> Pilih Buku
+                <h3>Merancang Karya Tulis Ilmiah</h3>
+                <p><strong>Harga: Rp 40.000</strong></p>
+                <p class="sinopsis">Buku ini membahas mengenai karakteristik karya tulis ilmiah, struktur karya tulis ilmiah, juga tentang teknik penyusunan karya tulis ilmiah. Buku ini sebagai pedoman atau acuan dalam penulisan karya ilmiah.</p>
+            </li>
+
+            <li class="book-item" data-category="nonfiksi">
+                <img src="buku5.jpeg" alt="Sampul Buku Non-Fiksi" width="150">
+                <input type="checkbox" class="pilih-buku" data-harga="70000" data-judul="Kamus Lengkap Kedokteran"> Pilih Buku
+                <h3>Kamus Lengkap Kedokteran</h3>
+                <p><strong>Harga: Rp 70.000</strong></p>
+                <p class="sinopsis">Kamus ini memuat banyak sekali istilah-istilah dalam dunia kedokteran yang sering digunakan dalam praktek dan dunia pendidikan.</p>
+            </li>
+
+            <li class="book-item" data-category="fiksi">
+                <img src="buku6.jpeg" alt="Sampul Buku Fiksi" width="150">
+                <input type="checkbox" class="pilih-buku" data-harga="42000" data-judul="Pulang-pergi"> Pilih Buku
+                <h3>Pulang-pergi</h3>
+                <p><strong>Harga: Rp 42.000</strong></p>
+                <p class="sinopsis">Ada jodoh yang ditemukan lewat tatapan pertama. Ada persahabatan yang diawali lewat sapa hangat. Bagaimana jika takdir bersama ternyata, diawali dengan pertarungan mematikan? Lantas semua cerita berkelindan dengan, pengejaran demi</p>
+            </li>
+
+            <li class="book-item" data-category="nonfiksi">
+                <img src="buku7.jpeg" alt="Sampul Buku Non-Fiksi" width="150">
+                <input type="checkbox" class="pilih-buku" data-harga="60000" data-judul="Memahami Al-Qur'an di Masa Post-truth"> Pilih Buku
+                <h3>Memahami Al-Qur'an di Masa Post-truth</h3>
+                <p><strong>Harga: Rp 60.000</strong></p>
+                <p class="sinopsis">Buku ini menunjukkan hasil pembacaan Al-Qur’an dalam berbagai perspektif. Mulai perspektif inderawi artinya Al-Qur’an dibaca dengan hanya melibatkan mata yakni membaca huruf demi huruf Al-Qur’an. Atau, dengan perspektif rasional-akademik yaitu dibaca dengan kritis, apa, bagaimana, di mana, untuk apa, dan kepada siapa, serta konteks ayat-ayat itu diturunkan.</p>
+            </li>
+
+            <li class="book-item" data-category="fiksi">
+                <img src="buku8.jpeg" alt="Sampul Buku Fiksi" width="150">
+                <input type="checkbox" class="pilih-buku" data-harga="40000" data-judul="The Voyages of Doctor Dolittle"> Pilih Buku
+                <h3>The Voyages of Doctor Dolittle</h3>
+                <p><strong>Harga: Rp 40.000</strong></p>
+                <p class="sinopsis">Dokter Dolittle pergi berlayar bersama Tommy Stubbins, asisten kecilnya, juga Polynesia si burung nuri dan Chee-Chee si monyet, serta beberapa teman setianya ke Pulau Monyet Laba-Laba. Di tengah perjalanan, kapal mereka karam dan mereka mendarat di sebuah pulau terapung yang misterius. Di sana mereka bertemu dengan siput raksasa yang menyimpan suatu rahasia yang luar biasa.</p>
+            </li>
+        </ul>
+    </main>
+
+    <section class="stok-buku">
+        <h2>Daftar Buku Tersedia</h2>
+        <table border="1">
+            <tr>
+                <th>Judul Buku</th>
+                <th>Kategori</th>
+                <th>Kondisi</th>
+            </tr>
+            <tr>
+                <td>Pulang</td>
+                <td>Fiksi</td>
+                <td>70% Baik</td>
+            </tr>
+            <tr>
+                <td>Janji</td>
+                <td>Fiksi</td>
+                <td>75% Baik</td>
+            </tr>
+            <tr>
+                <td>Seni Mengubah nasib</td>
+                <td>Non-Fiksi</td>
+                <td>80% Baik</td>
+            </tr>
+            <tr>
+                <td>Merancang Karya Tulis Ilmiah</td>
+                <td>Non-Fiksi</td>
+                <td>90% Baik</td>
+            </tr>
+            <tr>
+                <td>Kamus Lengkap Kedokteran</td>
+                <td>Non-Fiksi</td>
+                <td>60% Baik</td>
+            </tr>
+            <tr>
+                <td>Pulang-pergi</td>
+                <td>Fiksi</td>
+                <td>85% Baik</td>
+            </tr>
+            <tr>
+                <td>Memahami Al-Qur'an di Masa Post-truth</td>
+                <td>Non-Fiksi</td>
+                <td>90% Baik</td>
+            </tr>
+            <tr>
+                <td>The Voyages of Doctor Dolittle</td>
+                <td>Fiksi</td>
+                <td>75% Baik</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="order-form">
+        <h2>Isi Data Pembelian</h2>
+        <form id="pembelian">
+            <label for="nama">Nama Pembeli:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda"><br><br>
+
+            <label for="pilihan-buku">Buku yang Dibeli:</label>
+            <input type="text" id="pilihan-buku" name="pilihan-buku"><br><br>
+
+            <label for="alamat">Alamat Pembeli:</label>
+            <textarea id="alamat" name="alamat"></textarea><br><br>
+
+            <label>Metode Pembayaran:</label>
+            <select name="pembayaran">
+                <option value="transfer">Transfer Bank</option>
+                <option value="cod">COD (Bayar di Tempat)</option>
+            </select><br><br>
+
+            <label>Total Harga:</label>
+            <input type="text" id="total" readonly placeholder="Otomatis terisi"><br><br>
+
+            <button type="button" onclick="proses()">Lanjutkan Pembayaran</button>
+        </form>
+    </section>
+    <script src="UTS.js"></script>
+    <section class="riwayat-pembelian" id="riwayat-section" style="display:none;">
+        <h2>Riwayat Pembelian</h2>
+        <div id="daftar-riwayat"></div>
+    </section>
+    </body>
+    <footer>
+    <div class="footer-container">
+        <p><strong>Hubungi Penjual:</strong> 0812-8253-XXXX (WhatsApp)</p> <div class="sosmed-links">
+            <span>Ikuti Kami: </span>
+            <a href="#">Instagram @BukuBekasKLM</a> | 
+            <a href="#">Facebook Store KLM</a> </div>
+        <p class="copyright">&copy; 2026 Buku Bekas Store KLM. Semua Hak Dilindungi.</p>
+    </div>
+</footer>
+</html>
